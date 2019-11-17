@@ -10,4 +10,6 @@ end
  
 def reduce(source_array)
   new = []
+  total = starting_point
+  
 while i 
