@@ -11,5 +11,4 @@ end
 def reduce(source_array, starting_point)
   new = []
   total = starting_point
-  
-while i 
+end 
