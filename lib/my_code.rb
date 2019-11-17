@@ -8,7 +8,7 @@ end
 return new
 end
  
-def reduce(source_array)
+def reduce(source_array, starting_point)
   new = []
   total = starting_point
   
