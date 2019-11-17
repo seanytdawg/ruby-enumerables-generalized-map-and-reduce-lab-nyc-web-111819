@@ -29,9 +29,11 @@ return new
 end
  
 def map(source_array)
-  source_array.map do |num|
+  new_array = []
+  source_array.each do |num|
     num ** 2 
-  end
+  end 
+  new_array << 
 end
 
 def my_own_reduce()
