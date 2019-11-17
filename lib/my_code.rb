@@ -11,7 +11,7 @@ end
 def reduce(source_array, starting_point = 0)
   total = starting_point
   source_array.each do |num|
-    total = yield(total)
+    total = yield(total, num)
   end 
   return total 
 end 
