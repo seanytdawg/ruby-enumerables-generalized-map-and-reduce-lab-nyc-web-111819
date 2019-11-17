@@ -9,6 +9,9 @@ return new
 end
  
 def reduce(source_array, starting_point = 0)
-  new = []
   total = starting_point
+  source_array.each do |num|
+    total += num 
+  end 
+  return total 
 end 
