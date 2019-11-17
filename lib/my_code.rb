@@ -18,7 +18,7 @@ end
 return new
 end
 
-def map_to_no_change(source_array)
+def map(source_array)
 new = []
   i = 0 
   while i < source_array.length 
@@ -28,7 +28,7 @@ end
 return new
 end
  
-def map_to_square(source_array)
+def map(source_array)
   source_array.map do |num|
     num ** 2 
   end
