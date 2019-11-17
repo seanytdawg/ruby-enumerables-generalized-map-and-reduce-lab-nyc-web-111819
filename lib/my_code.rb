@@ -1,4 +1,4 @@
-def map_1(source_array)
+def map(source_array)
   new = []
   i = 0 
    while i < source_array.length 
@@ -8,7 +8,7 @@ end
 return new
 end
  
- def map_2(source_array)
+ def map(source_array)
   new = []
   i = 0 
    while i < source_array.length 
