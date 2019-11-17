@@ -31,9 +31,9 @@ end
 def map(source_array)
   new_array = []
   source_array.each do |num|
-    num ** 2 
+   ele = num ** 2 
   end 
-  new_array << 
+  new_array << ele 
 end
 
 def my_own_reduce()
